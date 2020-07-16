@@ -39,6 +39,14 @@
 #include "tf2/LinearMath/Transform.h"
 #include <boost/foreach.hpp>
 
+#ifndef logError
+#define logError
+#endif
+
+#ifndef logWarn
+#define logWarn
+#endif
+
 namespace tf2
 {
 
